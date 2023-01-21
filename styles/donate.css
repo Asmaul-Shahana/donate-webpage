@@ -14,16 +14,16 @@
     color: white;
 }
 .banner{
-    padding: 200px 350px 0 350px;
+    padding: 200px 200px 0 200px;
     text-align: center;
 }
 .banner-title{
     font-weight: 600;
-    font-size: 80px;
+    font-size: 70px;
     padding-bottom: 30px;
 }
 .banner-subtitle{
-    font-size: 22px;
+    font-size: 18px;
     padding: 0 150px 0 150px;
 }
 .btn-primary{
@@ -40,14 +40,13 @@
 }
 /* Main styles */
 main{
-    margin: 0 180px 0 180px;
-    border: 1px solid black;  
+    margin: 0 auto;
 }
 .section-title{
     font-size: 50px;
     font-weight: 700;
     padding-bottom: 30px;
-
+    text-align: center;
 }
 .section-subtitle{
     font-size: 20px;
@@ -58,7 +57,7 @@ main{
 .section-container{
     text-align: center;
     margin: 155px 200px 30px 200px; 
-    /* border: 1px solid black;   */
+    /* border: 1px solid black; */
 }
 .token-container{
     display: flex;
@@ -69,7 +68,7 @@ main{
 }
 
 .taka-btn{
-    padding: 55px 40px;
+    padding: 45px 30px;
     font-weight: 600;
     font-size: 30px;
     color: rgb(112,112,112);
@@ -77,7 +76,7 @@ main{
     border-radius: 5px;
     background-color: rgb(248, 246, 246);
 }
-.taka-btn:hover{
+.redbtn{
     background-color: rgb(255,238,238);
     border: 2px solid #c92a2a;
 }
@@ -92,3 +91,52 @@ main{
     color: rgb(133, 130, 130);
 }
 /* Donate plan styles */
+.plans-container, .contribute-container{
+    text-align: left;
+}
+
+.plan-card-container{
+    display: flex;
+    gap: 24px;
+}
+
+.plan-card-1{
+    background-color: rgba(79, 157, 166, 0.1);
+    border-radius: 5px;
+    padding: 54px 23px;
+}
+.plan-card-2{
+    background-color: rgba(255, 89, 89, 0.1);
+    border-radius: 5px;
+    padding: 54px 23px;
+
+}
+.plan-card-3{
+    background-color: #FFF4D6;
+    border-radius: 5px;
+    padding: 54px 23px;
+
+}
+.plan-title{
+    padding-top: 31px;
+}
+
+.plan-content{
+    color: rgb(112,112,112);
+    padding-top: 16px;
+}
+/* Contribute */
+.contribute-div{
+    display: flex;
+}
+
+.contribute-title{
+    text-align: left;
+}
+.contribute-content{
+    color: rgb(112,112,112);
+}
+
+.contribute-img{
+    width: 50px;
+}
